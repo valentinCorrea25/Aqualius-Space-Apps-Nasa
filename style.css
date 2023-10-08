@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Gabarito&family=Jost&family=Montserrat&family=Noto+Sans+JP&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Gabarito', cursive;
+}
+
+.contenedorPlaneta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+
+.contenedorPlaneta img {
+    width: 45%;
+}
+
+#titulo1 {
+    font-size: 100px;
+    text-align: center;
+    transition: all 0.9s;
+    margin-bottom: 10px;
+}
+
+#titulo1:hover {
+    color: rgb(106, 141, 230);
+}
+
+#titulo {
+    font-size: 60px;
+    text-align: center;
+}
+
+#subtitulo {
+    font-size: 21px;
+    font-weight: 800;
+    position: absolute;
+    top: 48%;
+    left: 16%;
+}
+
+.contenedorInformacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedorInformacion a {
+    text-decoration: none;
+}
+
+.contenedorInformacion .boton-presentacion {
+    display: block;
+    margin: 15px auto;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(244, 244, 244);
+    padding: 9px 25px;
+    background-color: rgb(106, 141, 230);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contenedorInformacion .boton-presentacion:hover {
+    background-color: rgb(253, 243, 254);
+    color: rgb(2, 1, 1);
+    transform: scale(1.2);
+}
+
+.seccion {
+    padding: 20px 40px;
+    margin: 0 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.seccion img {
+    width: 70%;
+}
+
+.division {
+    width: 2px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.imagenSol {
+    width: 50%;
+}
+
+.textoSeccionDual {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.textoSeccionDual h1 {
+    font-size: 15px;
+}
+
+.infoEstrella {
+    display: flex;
+    flex-direction: column;
+}
+
+.esquema {
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.planetaEsquema {
+    width: 40%;
+}
+
+.articulo {
+    position: absolute;
+    max-width: 300px;
+}
+
+.articulo h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#art1 {
+    top: 5%;
+    left: 7%;
+}
+
+#art2 {
+    top: 60%;
+    left: 7%;
+}
+
+#art3 {
+    top: 5%;
+    right: 5%;
+}
+
+#art4 {
+    top: 60%;
+    right: 5%;
+}
+
+.masInformacion {
+    padding: 20px 80px;
+}
+
+.masInformacion h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.hr {
+    background-color: white;
+    opacity: 0.4;
+    border-radius: 60px;
+    height: 4px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.moreInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+span {
+    font-size: 30px;
+    padding: 2px;
+}
+
+.little {
+    width: 40%;
+    float: left;
+    display: inline-block;
+}
+
+.little2 {
+    width: 40%;
+    float: right;
+    display: inline-block;
+}
+
+.lastInformation {
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    font-size: 2vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.lastInformation img {
+    width: 120px;
+    height: 120px;
+}
+
+#spaceapps {
+    height: 50px;
+    width: 120px;
+}
+
+#nebula {
+    border-radius: 60px;
+}
+
+.imagenesLogos {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact {
+    color: azure;
+    padding: 0 20px;
+    height: 10px;
+    font-size: 10px;
+    background-color: rgb(26, 25, 25);
+}
+
+.contact a {
+    text-decoration: none;
+    color: azure;
+}
+
+
+@media only screen and (max-width: 768px) {
+    html {
+        border: 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mobileSubtitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .contenedorPlaneta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .contenedorPlaneta img {
+        width: 55%;
+    }
+
+    #titulo1 {
+        margin: 10vh 4vh 4vh 4vh;
+        font-size: 10vh;
+        text-align: center;
+        transition: all 0.9s;
+    }
+
+
+    #titulo1:hover {
+        color: rgb(106, 141, 230);
+    }
+
+    #titulo {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #subtitulo {
+        font-size: 19px;
+        font-weight: 800;
+        position: static;
+    }
+
+    .contenedorInformacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contenedorInformacion a {
+        text-decoration: none;
+    }
+
+    .contenedorInformacion .boton-presentacion {
+        display: none;
+    }
+
+    .contenedorInformacion .boton-presentacion:hover {
+        background-color: rgb(253, 243, 254);
+        color: rgb(2, 1, 1);
+        transform: scale(1.2);
+    }
+
+    .seccion {
+        padding: 10px 40px;
+        margin: 0 10px;
+        font-size: 12px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .seccion img {
+        width: 70%;
+    }
+
+    .division {
+        display: none;
+    }
+
+    .seccionSol {
+        flex-direction: column;
+    }
+
+    .imagenSol {
+        width: 50%;
+    }
+
+    .textoSeccionDual {
+        padding: 10px;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    .textoSeccionDual h1 {
+        font-size: 15px;
+    }
+
+    .infoEstrella {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .esquema {
+        padding: 10px 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .planetaEsquema {
+        width: 50%;
+    }
+
+    .articulo {
+        margin-top: 10px;
+        position: static;
+        text-align: center;
+    }
+
+    .articulo h4 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .masInformacion {
+        padding: 20px 10px;
+    }
+
+    .masInformacion h1 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .hr {
+        background-color: white;
+        opacity: 0.4;
+        border-radius: 60px;
+        height: 4px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .moreInfo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+    }
+
+    span {
+        font-size: 30px;
+        padding: 2px;
+    }
+
+    .little {
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+
+    .little2 {
+        width: 60%;
+        float: right;
+        display: inline-block;
+    }
+
+    #big {
+        width: 100%;
+        text-align: center;
+    }
+
+    #Survival {
+        width: 80%;
+    }
+
+    .mobilePhoto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagenesLogos {
+        padding-top: 20px;
+        margin: 0 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .lastInformation {
+        padding: 40px;
+    }
+}
